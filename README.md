@@ -6,7 +6,7 @@ Personal developer portfolio — built with React, TailwindCSS v4, and Framer Mo
 
 ---
 
-![Portfolio Preview](./src/assets/preview.png)
+![Portfolio Preview](./homepage.png)
 
 ---
 
