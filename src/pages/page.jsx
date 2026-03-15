@@ -194,8 +194,7 @@ export default function Page() {
       setTimeout(() => setStatus("idle"), 3000);
     }
   } catch (err) {
-    // TRICK: Since you're getting the SMS but catching an error, 
-    // it's a CORS/parsing issue. We force 'success' here so the user is happy.
+
     console.log("Silent catch - forcing success because message likely sent");
     setStatus("success");
     resetForm();
